@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>EVENT REGISTRATION <small>(College picnic)</small></h1>
+  <p>Welcome to the event registration page. Please fill out the form below to register for the event.</p>
+  <form>
+    <input placeholder="Name" type="text" name="name" required><br><br>
+    <input placeholder="College" type="text" name="college" required><br><br>
+    <input placeholder="Date" type="date" name="date" required><br><br>
+    <input placeholder="Department" type="text" name="department" required><br>
+    <h4>Age Group:</h4>
+    <input type="radio" id="Age1" name="Age" value="under 18" required><label for="Age1"> Under 18</label><br>
+    <input type="radio" id="Age2" name="Age" value="18-25" required><label for="Age2"> 18-25</label><br>
+    <input type="radio" id="Age3" name="Age" value="over 25" required><label for="Age3"> Over 25</label><br><br>
+    <input placeholder="Email" type="email" name="email" required><br>
+    <input placeholder="Phone" type="tel" name="phone"><br>
+    <h4>Menu Preference:</h4>
+    <input type="radio" id="Menu1" name="menu" value="Vegetarian"><label for="Menu1"> Vegetarian</label><br>
+    <input type="radio" id="Menu2" name="menu" value="Non-Vegetarian"><label for="Menu2"> Non-Vegetarian</label><br>
+    <input type="radio" id="Menu3" name="menu" value="Vegan"><label for="Menu3"> Vegan</label><br>
+    <h4>Dress Code:</h4>
+    <input type="radio" name="dress"><label> Casual</label><br>
+    <input type="radio" name="dress"><label> Formal</label><br>
+    <input type="radio" name="dress"><label> Traditional</label><br><br>
+    <input placeholder="Address" type="text" name="address"><br><br>
+    <button type="submit">Submit</button>
+    <button type="cancel">Cancel</button><br>
+    <select>
+      <option value="">I did it!</option>
+      <option value="">I'm satisfied</option>
+      <option value="">I'm happy</option>
+    </select>
+  </form>
+</body>
+</html>
